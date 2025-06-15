@@ -1,13 +1,13 @@
 import React from "react";
 
 const TimeVenueBox = ({
-    
+    styleObj = {}
 }) => {
 
     //Logic with states for Days , Hours and Mins
 
     return (
-        <div className="col-md-6 text-end time-venue-box">
+        <div className={`time-venue-box`} style={styleObj}>
             <div className="time-boxes">
                 <div className="time-box-item">
                     131

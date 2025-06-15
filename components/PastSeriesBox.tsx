@@ -7,8 +7,11 @@ const PastSeriesBox = ({
 
     return (
         <div>
-            <img src='seriesImage.png' />
-            <div className='venue-box'>
+            <img src='seriesImage.png' width={350} height={250} />
+            <div className='venue-box' style={{
+                marginTop: '1rem',
+                marginBottom: '1rem'
+            }}>
                 <div>02-03 October, <span>2025</span></div>
                 <span>Bombay Exhibition Centre</span>
                 <span>Mumbai</span>

@@ -316,7 +316,43 @@ const page = () => {
         </div>
       </div>
 
-      
+      <div className='series-box'>
+        <h2>PharmmaEx Exhibitions Series</h2>
+        <div className='upcmg col-md-10 mx-auto row align-items-center mb-4'>
+          <SeriesBoxHead text='Upcoming Exhibition' />
+          <div className='upcomg-body' style={{
+            display: 'flex',
+            alignItems: 'center',
+            marginLeft: '4rem',
+            marginTop: '1rem',
+            marginBottom: "2rem"
+          }}>
+            <img src='seriesImage.png' />
+            <TimeVenueBox styleObj={{
+              textAlign: 'left',
+              width: "40%",
+              marginLeft: "2rem"
+            }}/>
+            <div style={{
+              display: 'flex',
+              marginTop: "1.5rem",
+              justifyContent: "flex-start"
+            }}>
+              <GreenBtn text='Pre-Registration' styleObj={{marginRight: "1.25rem"}} />
+              <GreenBtn text='Become Exhibitor' />
+            </div>
+          </div>
+        </div>
+        <div className='pasts col-md-10 mx-auto row align-items-center mb-4'>
+          <SeriesBoxHead text='Past Exhibitions' />
+          <div className='pst-body-box' >
+            <PastSeriesBox />
+            <PastSeriesBox />
+            <PastSeriesBox />
+            <PastSeriesBox />
+          </div>
+        </div>
+      </div>
 
       {/* Whats Exhibition Section*/}
       <div style={{

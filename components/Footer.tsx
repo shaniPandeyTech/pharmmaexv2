@@ -20,7 +20,12 @@ const Footer = ({
             </div>
 
             {/* Right side - Timer and Address */}
-            <TimeVenueBox />
+            <TimeVenueBox styleObj={{
+              textAlign: 'right',
+              justifyContent: 'flex-end',
+              width: "50%",
+              flex: "none"
+            }}/>
           </div>
 
           {/* Four Columns */}

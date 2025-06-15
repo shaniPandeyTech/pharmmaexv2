@@ -131,7 +131,6 @@ a {
 
 .time-venue-box {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
 }
 
@@ -412,4 +411,11 @@ a {
   height: 1px;
   margin-left: 1rem;
   border-bottom: 1px solid #FFFFFF40
+}
+
+.pst-body-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 2rem;
 }
