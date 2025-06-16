@@ -54,8 +54,9 @@ a {
 }
 
 .nav-btn {
-  width: 11rem;
-  height: 3rem;
+  width: 8rem;
+    height: 2.5rem;
+    font-size: 0.75rem;
   border-radius: 12.5rem;
   border: 1px solid #000000;
   background: white;
@@ -103,8 +104,9 @@ a {
 .btn-bnr {
   background: transparent;
   border: 1px solid whitesmoke;
-  width: 11rem;
-  height: 3rem;
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 0.85rem;
   border-radius: 12.5rem;
   color: white;
 }
@@ -123,8 +125,13 @@ a {
   }
 }
 
-.com-font-sm {
-  font-size: 1.375rem;
+.com-font-sm-sp {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: -1%;
+}
+.com-font-sm span {
+  font-size: 1.15rem;
   font-weight: 400;
   letter-spacing: -1%;
 }
@@ -145,17 +152,17 @@ a {
   width: 5.875rem;
   height: 6.25rem;
   border-radius: 24px;
-  font-size: 2.125rem;
+  font-size: 1.75rem;
   font-weight: 500;
 }
 
 .time-boxes span {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-weight: 400;;
 }
 
 .venue-box {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 500;
   display: flex;
   align-items: flex-start;
@@ -172,7 +179,7 @@ a {
 }
 
 .footer-col-heading h5 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: 1.45rem;
   font-weight: 600;
   color: #73BF45;
@@ -182,8 +189,8 @@ a {
 .footer-col-heading p, .footer-col-heading a {
   font-weight: 400;
   letter-spacing: -0.05rem;
-  font-size: 1.25rem;
-  line-height: 2.25rem;  
+  font-size: 1rem;
+  line-height: 2rem;  
   font-weight: 400;
   color : #B8B8B8;
   margin-bottom: 1.5rem;
@@ -210,7 +217,7 @@ a {
     margin-bottom: 1.5rem;
     align-items: flex-end;
     justify-content: space-between;
-    font-size: 1.15rem;
+    font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.015rem;
     color: #5C5B5B;
@@ -246,7 +253,7 @@ a {
 }
 
 .venue-content h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
@@ -270,7 +277,7 @@ a {
 }
 
 .venue-gr-bx-item p {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
 }
 
@@ -320,7 +327,7 @@ a {
 }
 
 .md-ezy-right h5 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
@@ -329,7 +336,7 @@ a {
 }
 
 .md-ezy-right li {
-  font-size: 1.45rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
@@ -344,8 +351,8 @@ a {
 }
 
 .exbtn-boxs {
-  width: 250px;
-  height: 200px;
+  width: 200px;
+  height: 150px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.3) 100%);
   border-radius: 30px;
   color: #FFFFFF;
@@ -363,19 +370,20 @@ a {
   padding-top: 3.5rem;
   color: #FFFFFF;
   font-family: Poppins, sans-serif;
-  font-size: 2.75rem;
+  font-size: 2rem;
   font-weight: 600;
   font-family: 'Poppins';
   letter-spacing: 0.1rem;
 }
 
 .exbtn-boxs p {
-  font-size: 2.5rem;
+  font-size: 1.45rem;
   font-weight: 700;
+  margin-bottom: 0;
 }
 
 .exbtn-boxs span {
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   font-weight: 400;
   margin-bottom: 0;
 }
@@ -387,20 +395,19 @@ a {
 }
 
 .series-box h2 {
-  font-size: 3rem;
+  font-size: 2.75rem;
   font-weight: 700;
   margin-bottom: 3rem;
   text-align: center;
 }
 
 .series-box h6 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
 }
 
 .upcmg-head {
   display: flex;
-  margin: 1rem 4rem;
   margin-bottom: 1rem;
   flex-direction: row;
   align-items: center;
@@ -417,5 +424,4 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 2rem;
 }

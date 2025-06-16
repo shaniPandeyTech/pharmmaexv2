@@ -67,18 +67,19 @@ const TwoRowNavbar = () => {
       </div>
 
       {/* Main Nav */}
-      <div className="container-fluid d-flex flex-wrap align-items-center justify-content-between py-2 px-3" style={{
+      <div className="container-fluid d-flex align-items-center justify-content-between py-2 px-3" style={{
         height: "6.25rem",
         borderBottom: "1px solid #DEDEDE",
         fontFamily: "Rubik",
       }}>
         {/* Left: Logo + Address */}
         <div className="d-flex align-items-center gap-3">
-          <img src="logo-png.png" alt="Logo" style={{ height: "40px" }} />
+          <img src="logo-png.png" alt="Logo" style={{ height: "40px" }} width={200} height={30}/>
           <span className="small" style={{
             width: "11rem",
             color: "#111111",
             fontWeight: 400,
+            fontSize: '0.8rem'
           }}>02-03 October, 2025
             Bombay Exhibition Centre,
             Mumbai
@@ -86,7 +87,9 @@ const TwoRowNavbar = () => {
         </div>
 
         {/* Center: Nav Tabs */}
-        <ul className="nav justify-content-center flex-grow-1 mx-4 nav-bar-row-2" >
+        <ul className="nav justify-content-center flex-grow-1 mx-4 nav-bar-row-2" style={{
+          fontSize: "0.8rem"
+        }}>
           <li className="nav-item">
             <a className="nav-link" href="#">
               Home
