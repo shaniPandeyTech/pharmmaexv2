@@ -3,6 +3,8 @@ import GreenBtn from '@/components/GreenBtn'
 import React from 'react'
 import SeriesBoxHead from '@/components/SeriesBoxHead'
 import PastSeriesBox from '@/components/PastSeriesBox'
+import ReviewBox from '@/components/ReviewBox'
+import ExhibitorsLogos from '@/components/ExhibitorsLogos'
 
 const page = () => {
   return (
@@ -88,7 +90,7 @@ const page = () => {
           PharmmaEx Presenting
         </div>
         <div style={{ 
-          fontSize: "2rem",
+          fontSize: "1.75rem",
           fontWeight: 700,
           marginBottom: "1rem"
         }}>
@@ -257,7 +259,7 @@ const page = () => {
                 }}
               />
               </div>
-              <span className="fs-5 com-font-sm">Global Networking Opportunities: Connect with top industry stakeholders, researchers, and decision-makers from across the globe.</span>
+              <span className="com-font-sm-sp">Global Networking Opportunities: Connect with top industry stakeholders, researchers, and decision-makers from across the globe.</span>
             </div>
             <div className="d-flex align-items-center mt-4">
               <div className="me-3" style={{
@@ -278,7 +280,7 @@ const page = () => {
                 }}
               />
               </div>
-              <span className="fs-5 com-font-sm" >Showcase Innovations: Explore the latest advancements in pharmaceutical technologies, formulations, and manufacturing processes.</span>
+              <span className="com-font-sm-sp" >Showcase Innovations: Explore the latest advancements in pharmaceutical technologies, formulations, and manufacturing processes.</span>
             </div>
             <button className="nav-btn" style={{
               marginTop: "3rem"
@@ -323,19 +325,18 @@ const page = () => {
           <div className='upcomg-body' style={{
             display: 'flex',
             alignItems: 'center',
-            marginLeft: '4rem',
             marginTop: '1rem',
             marginBottom: "2rem"
           }}>
-            <img src='seriesImage.png' />
+            <img src='seriesImage.png' width={300} height={200}/>
             <TimeVenueBox styleObj={{
               textAlign: 'left',
-              width: "40%",
+              width: "50%",
               marginLeft: "2rem"
             }}/>
             <div style={{
               display: 'flex',
-              marginTop: "1.5rem",
+              marginTop: "1rem",
               justifyContent: "flex-start"
             }}>
               <GreenBtn text='Pre-Registration' styleObj={{marginRight: "1.25rem"}} />
@@ -751,7 +752,6 @@ const page = () => {
           </div>
         </div>
 
-        {/* Row 2: Scroll Left to Right */}
         <div className="row mb-4">
           <div
             className="d-flex scroll-content"
@@ -763,37 +763,12 @@ const page = () => {
                 className="card"
                 style={{ minWidth: '350px', minHeight: '300px', borderRadius: "25px", display: 'inline-block', border: "1px solid #BCBCBC" }}
               >
-                <div className="card-body">
-                  <div className="d-flex align-items-center mb-3">
-                    <img
-                      src="reviewPic.png"
-                      className="rounded-circle me-3"
-                      alt="User"
-                    />
-                    <div>
-                      <h6 className="mb-0">Tarmeet Singh</h6>
-                      <small className="text-muted">Director, Wahoo Wellness</small>
-                      <br />
-                      <small className="text-muted">
-                        <span>5.0</span>
-                        <span className="ms-2" style={{ color: '#FFD700' }}>
-                          ★★★★★
-                        </span>
-                      </small>
-                    </div>
-                  </div>
-                  <p className="card-text text-wrap">
-                    We have been associating with PharmmaEx for the last many years, 
-                    and every time they have come up with innovative ideas. 
-                    They know what to deliver and that too on committed time.
-                  </p>
-                </div>
+                <ReviewBox />
               </div>
             ))}
           </div>
         </div>
 
-        {/* Row 3: Scroll Right to Left */}
         <div className="row">
           <div
             className="d-flex scroll-content"
@@ -805,31 +780,7 @@ const page = () => {
                 className="card"
                 style={{ minWidth: '350px', minHeight: '300px', borderRadius: "25px", display: 'inline-block', border: "1px solid #BCBCBC" }}
               >
-                <div className="card-body">
-                  <div className="d-flex align-items-center mb-3">
-                    <img
-                      src="reviewPic.png"
-                      className="rounded-circle me-3"
-                      alt="User"
-                    />
-                    <div>
-                      <h6 className="mb-0">Tarmeet Singh</h6>
-                      <small className="text-muted">Director, Wahoo Wellness</small>
-                      <br />
-                      <small className="text-muted">
-                        <span>5.0</span>
-                        <span className="ms-2" style={{ color: '#FFD700' }}>
-                          ★★★★★
-                        </span>
-                      </small>
-                    </div>
-                  </div>
-                  <p className="card-text text-wrap">
-                    We have been associating with PharmmaEx for the last many years, 
-                    and every time they have come up with innovative ideas. 
-                    They know what to deliver and that too on committed time.
-                  </p>
-                </div>
+                <ReviewBox />
               </div>
             ))}
           </div>
