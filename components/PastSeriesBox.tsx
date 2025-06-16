@@ -7,7 +7,7 @@ const PastSeriesBox = ({
 
     return (
         <div>
-            <img src='seriesImage.png' width={350} height={250} />
+            <img src='seriesImage.png' width={280} height={200} />
             <div className='venue-box' style={{
                 marginTop: '1rem',
                 marginBottom: '1rem'
